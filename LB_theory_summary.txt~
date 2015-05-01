@@ -1,0 +1,9 @@
+Theory summary
+
+LB is based on the following properties:
+-mass,momentum and energy conservation and isotropic (equal in all directions) relaxation of stress.
+It is formulated on a lattice where on its sites particle densities are situated, time is discretized. The density of particles are described by ni with velocity vi along a link or 0. where i denotes the link where the particle is going to(?)
+During each timestep the following processes take place:
+-at each site particles with nonzero speed move to a new site
+-at each site the distribution is relaxed to equilibrium distribution. (what exactly does this mean?)
+    this means that the ni(r + c dt ei,t + dt) =... (14.29) (we relax the distribution on 
